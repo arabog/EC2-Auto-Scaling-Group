@@ -91,6 +91,10 @@ Load balancer scheme: internet-facing
 ### Step 4: Configure group size and scaling policies
 Set the desired, minimum, and maximum capacity of your Auto Scaling group. You can optionally add a scaling policy to dynamically scale the number of instances in the group.
 
+Desired: Number of instances to be initially created 
+Minimum: Number of instances at which a new instance will be created.
+Maximum: Highest number of instances that can be created/provided for.
+
 ![scaling-policy](scaling-policy.png?raw=true "scaling-policy")
 
 ### Step 5: Add notifications
@@ -125,3 +129,8 @@ Go back to the Auto Scaling Group service and select the Autoscaling group that 
 While viewing the details of the Autoscaling group, review the history for the EC2 instance(s). You will see that the previous EC2 instance has been terminated, and a new one(s) are being instantiated.
 
 ## Stage 5. Delete Autoscaling group resources
+Load balancer
+Target groups
+Auto Scaling group
+
+
