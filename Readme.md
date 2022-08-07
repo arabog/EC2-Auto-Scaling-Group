@@ -119,9 +119,9 @@ In this step, you will terminate only those instance(s) that were launched as a 
 
 Note - In addition to the instances that are launched as a part of the Autoscaling group, it is possible that you have additional instances already created in your EC2 dashboard.
 
-Go to the EC2 Instances dashboard, and select the instance(s) that you want to terminate.
-Terminate the selected instance(s).
-Go back to the Auto Scaling Group service and select the Autoscaling group that you have created in the step above.
-While viewing the details of the Autoscaling group, review the history for the EC2 instance(s). You will see that the p
+Go to the EC2 Instances dashboard, and select the instance(s) that you want to terminate.  
+Terminate the selected instance(s).  
+Go back to the Auto Scaling Group service and select the Autoscaling group that you have created in the step above.  
+While viewing the details of the Autoscaling group, review the history for the EC2 instance(s). You will see that the previous EC2 instance has been terminated, and a new one(s) are being instantiated.
 
 ## Stage 5. Delete Autoscaling group resources
